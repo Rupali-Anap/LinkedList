@@ -28,4 +28,17 @@ public class LinkList {
             }
         }
 
+
+
+
+    public static void main(String[] args) {
+
+        LinkList linkedList = new LinkList();
+
+        linkedList.push(70);
+        linkedList.push(30);
+        linkedList.push(56);
+
+        linkedList.print();
+    }
 }
